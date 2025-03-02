@@ -1,0 +1,145 @@
+<<<<<<< Updated upstream
+=======
+/* 🌟 Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+}
+
+/* 🎯 Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 15px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.authority-btn {
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.authority-btn:hover {
+    background: darkgreen;
+    transform: scale(1.1);
+}
+
+/* 🏆 Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #b2bcbe;
+    padding: 60px;
+    box-shadow: #b2bcbe;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.btn-group button {
+    margin: 10px;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.login-btn {
+    background: black;
+    color: white;
+}
+
+.signup-btn {
+    background: green;
+    color: white;
+}
+
+.login-btn:hover, .signup-btn:hover {
+    transform: scale(1.1);
+}
+
+/* 🚀 Services */
+.services {
+    text-align: center;
+    padding: 50px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.service-card {
+    background: white;
+    padding: 20px;
+    box-shadow: 2px 2px 10px gray;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+/* 🔥 Grievance */
+.grievance {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.green-btn {
+    background: green;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.green-btn:hover {
+    transform: scale(1.1);
+}
+
+/* 📊 Statistics */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+}
+
+/* 🔻 Footer */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+}
+>>>>>>> Stashed changes
